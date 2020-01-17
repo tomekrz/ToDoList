@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(226, 226, 226);
+    ;
+}
+
+.container>input {
+    margin: 20px 0;
+}
+
+li.list-group-item {
+    position: relative;
+    text-align: justify;
+}
+
+li.list-group-item button {
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+}
+
+p {
+    display: inline-block;
+}
+
+p+p {
+    font-weight: 700;
+}
+
+span {
+
+    display: inline-block;
+    color: black;
+}
